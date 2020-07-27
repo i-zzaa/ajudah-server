@@ -1,0 +1,13 @@
+
+#Criar modeal, migration e controller
+adonis make:model ***nome_sem_asteriscos** -m -c
+
+#feedback 
+✔ create  app/Models/***nome_sem_asteriscos**.js
+✔ create  database/migrations/1530569796148_***nome_sem_asteriscos**_schema.js
+✔ create  app/Controllers/Http/***nome_sem_asteriscos**Controller.js
+
+
+#Criar a tabela (rodar a migration)
+adonis make:migration users
+adonis migration:run
