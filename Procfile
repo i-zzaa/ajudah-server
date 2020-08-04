@@ -1,1 +1,1 @@
-web:  adonis serve --dev
+web:  adonis serve --dev adonis migration:run
